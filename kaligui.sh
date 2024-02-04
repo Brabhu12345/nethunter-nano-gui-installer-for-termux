@@ -1,9 +1,5 @@
 #!/bin/bash
 
-rm /etc/resolv.conf
-
-echo "nameserver 8.8.8.8" >> /etc/resolv.conf
-
 apt update ; apt install kali-desktop-xfce dbus-x11 tigervnc-standalone-server xfce4 xfce4-whiskermenu-plugin xfce4-terminal firefox-esr kali-themes kali-defaults -y
 
 mkdir .vnc 2> /dev/null
